@@ -1,0 +1,10 @@
+﻿version: '3.4'
+
+services:
+  loja-manoel-api:
+    image: loja-manoel-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"

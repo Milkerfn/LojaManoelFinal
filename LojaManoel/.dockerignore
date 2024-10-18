@@ -1,0 +1,31 @@
+﻿**/.classpath
+**/.dockerignore
+**/.env
+**/.git
+**/.gitignore
+**/.project
+**/.settings
+**/.toolstarget
+**/*.csproj.user
+**/*.dbmdl
+**/*.jfm
+**/bin
+**/obj
+
+
+# Ignorar arquivos de build e dependências
+bin/
+obj/
+node_modules/
+
+# Ignorar arquivos de configuração locais
+*.env
+*.log
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de versionamento
+.git
+.gitignore
